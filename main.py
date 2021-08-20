@@ -34,8 +34,8 @@ if user_choice < 3 and user_choice >= 0:
     print(rps[user_choice])
 
     comp_choice = random.randint(0,2)
-    print("Computer chose:")
-    print(rps[comp_choice])
+    print(f"Computer chose: {rps[comp_choice]}")
+
 
     if user_choice == comp_choice:
         print("Match Tied")
